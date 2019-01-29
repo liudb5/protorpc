@@ -39,7 +39,7 @@ func (p *protorpcPlugin) HeaderCode(g *generator.Generator, file *generator.File
 //
 // source: {{$File.GetName}}
 
-package {{$File.PackageName}}
+package {{$File.GetPackage}}
 
 import (
 	"fmt"
